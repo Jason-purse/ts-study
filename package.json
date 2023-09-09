@@ -1,0 +1,22 @@
+{
+  "name": "ts-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason-purse/ts-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jason-purse/ts-study/issues"
+  },
+  "homepage": "https://github.com/Jason-purse/ts-study#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
