@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ <iframe id="iframe" src="http://172.16.1.220/sys/openport/?menuid=0201712271513506&yhgh=MTk2MDAw&bdid=HL_HLBD_YPBLSJ&brid=0001049510&ypid=7749236">
+
+     <iframe id="main-iframe" src="http://172.16.1.220/nursing/HuLibd/indexbdz?menuid=0201712271513506&amp;SYS_ZID=1&amp;gljb=0&amp;SYS_STYLE=new&amp;nofaid=1&amp;bdid=HL_HLBD_YPBLSJ&amp;brid=0001049510&amp;ypid=7749236">
+
+     </iframe>
+ </iframe>
+
+<script type="text/javascript">
+    let element = document.querySelector("#iframe");
+    element.onload  = function () {
+        setTimeout(() => {
+            element.contentWindow.href = 'http://172.16.1.220/nursing/HuLibd/indexbdz?menuid=0201712271513506&amp;SYS_ZID=1&amp;gljb=0&amp;SYS_STYLE=new&amp;nofaid=1&amp;bdid=HL_HLBD_YPBLSJ&amp;brid=0001049510&amp;ypid=7749236'
+        },1000)
+    }
+</script>
+</body>
+</html>

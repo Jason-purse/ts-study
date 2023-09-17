@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jason-purse/ts-study#readme",
   "dependencies": {
+    "reflect-metadata": "^0.1.13",
     "ts-node": "^10.9.1"
   }
 }
